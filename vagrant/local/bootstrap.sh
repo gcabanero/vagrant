@@ -3,5 +3,5 @@
     apt-get install -y apache2
     if ! [ -L /var/www ]; then
       rm -rf /var/www
-      ln -fs /local/web /var/www
+      ln -fs /vagrant/web /var/www
     fi
